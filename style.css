@@ -1,3 +1,9 @@
 body {
-    color: blue;
-};
+    background-color: black;
+}
+
+#splash-logo {
+    position: absolute;
+    top: 25vh;
+    left: 35vw;
+}
