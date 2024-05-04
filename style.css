@@ -7,36 +7,3 @@
     color: inherit;
     text-decoration: inherit;
 }
-
-#mc-icon {
-    min-width: 3vw;
-    max-width: 5vw;
-}
-
-#navbar {
-    background-color: #111;
-    max-height: 18vh;
-}
-
-#nav-logo {
-    min-width: 20vw;
-    margin: 2vh 20vw 2vh 2vw;
-}
-
-#mc-logo img {
-    min-width: 58px;
-    max-width: 6vw;
-}
-
-#mc-name {
-    font-family: Rye, 'Times New Roman', Times, serif;
-    color: white;
-    padding: 2vh 0;
-}
-
-.nav-items {
-    color: white;
-    font-family: Rye, 'Times New Roman', Times, serif;
-    font-size: 0.7em;
-    padding: 11vh 0 0 0;
-}
