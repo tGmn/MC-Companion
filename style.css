@@ -30,15 +30,53 @@ body {
     background-color: #1a1c1f;
 }
 
-.sidebar-title {
+.title {
     font-weight: bold;
     font-family: Rye, 'Times New Roman', Times, serif;
     text-transform: uppercase;
     font-size:larger;
 }
 
+.accordion {
+    --bs-accordion-border-color: #595b5e;
+}
+
+.accordion-button {
+    background-color: #383c40 !important;
+}
+
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+ }
+
+.accordion-button span {
+    color: white;
+}
+
+.accordion-body {
+    background-color: #595b5e;
+}
+
 #events-list {
     list-style: none;
-    padding-top: 1vh;
     padding-left: 0;
+}
+
+#eventos-lista-detalhada {
+    padding-top: 4vh;
+}
+
+#footer {
+    position: relative;
+}
+
+#historia p:first-of-type {
+    padding-top: 2vh;
+}
+
+#historia p {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
 }
